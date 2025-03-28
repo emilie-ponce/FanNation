@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Accueil</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+<!--HAUT DE PAGE-->
+    <header class="bg-gray-400 text-white p-4 shadow-md flex justify-between items-center">
+        <nav>
+            <ul class="flex items-center space-x-6">
+                <li><a href="index.html" class="text-xl font-semibold hover:text-gray-300">FanNation</a></li>
+                <li><a href="profil.html"><img src="images/profil.png" alt="icône page de profil" class="w-8 h-8"></a></li>
+            </ul>
+        </nav>
+        <form action="recherche.html" method="get" class="flex items-center bg-white rounded-full px-3 py-1">
+            <input type="text" name="query" placeholder="Rechercher..." required class="outline-none text-black px-2 py-1 w-15 sm:w-15">
+            <button type="submit" class="p-2">
+                <img src="images/loupe.png" alt="icône loupe" class="w-3 h-3">
+            </button>
+        </form>
+    </header>
+
+<!--INTRODUCTION-->
+    <div class="text-center mt-20 ml-40 mr-40">
+        <p class="text-[20px]">
+            Bienvenue sur FanNation, la plateforme ultime pour tous les passionnés !
+        </p>
+        <p class="text-[14px] mt-12">
+            Ici, tu peux créer ton propre fansite dédié à tes célébrités préférées en partageant ton admiration, publiant des actus, des analyses, des photos et bien plus encore ! Crée et personnalise facilement ton site, interagis avec d'autres fans et découvre des contenus exclusifs. Exprime ta passion et connecte-toi avec des millions d'autres fans à travers le monde !
+        </p>
+        <button class="bg-gray-400 text-white px-4 py-2 mt-12 rounded-full hover:bg-gray-500">
+            <a href="inscription.html">Rejoins notre communauté !</a>
+        </button>
+    </div>
+
+<!--FANSITES EN VEDETTE-->
+    <h4 class="mt-20 ml-4 text-[14px]">
+        → Fansites en vedette
+    </h4>
+    
+</body>
+</html>
